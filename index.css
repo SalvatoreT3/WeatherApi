@@ -1,0 +1,12 @@
+body {
+    background: url("./dawid-zawila--G3rw6Y02D0-unsplash.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    border: 0px solid #ffffff;
+    text-align: center;
+    margin-top: 15%;
+}

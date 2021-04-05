@@ -6,7 +6,7 @@ $error = '';
 
 if ($_GET['city']) {
 
-    $urlContents = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_GET['city'] . "&appid=6bf82e9a3e76409377e6b2a956c11054");
+    $urlContents = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=" . $_GET['city'] . "&appid={APIOpenWeather}." );
 
     $weatherArray = json_decode($urlContents, true);
 
